@@ -5,7 +5,7 @@ Compile with gcc:
     
 Or compile with <i>make</i>
     
-Run with:
+Run executable with:
     ./mavg
 
 <i>-JudGe</i>
