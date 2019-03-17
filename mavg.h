@@ -13,7 +13,7 @@
 
 #define RESET 0
 #define MAVG_RANGE(dlen, wframe) ((dlen)-(wframe-1))
-#define STOCH_FORM(c, max, min) (((c-min) / (max-min)) *100)
+#define STOCH_FORM(c, max, min) (((c-min) / (max-min)) * 100)
 
 
 #include <stdio.h>
