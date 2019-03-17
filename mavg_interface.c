@@ -22,8 +22,8 @@ void mavg_init(mavg_ctx *ctx, size_t wsize, size_t dsize) {
 
 void mavg_update(mavg_ctx *ctx, const double *data, size_t dsize) {
 
-	double min = data[RESET];
- 	double max = data[RESET];
+	double min;
+ 	double max;
 	double K;
 
 	for (int i=0; i<MAVG_RANGE(dsize, ctx->frame); i++) {
