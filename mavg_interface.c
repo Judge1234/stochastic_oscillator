@@ -16,7 +16,7 @@ void mavg_init(mavg_ctx *ctx, size_t wsize, size_t dsize) {
     	ctx->arr = calloc(wsize, sizeof(double));
     	ctx->ndata = calloc(dsize, sizeof(double));
 	ctx->mavg = calloc(dsize, sizeof(double));
-    	assert((ctx->arr) && (ctx->ndata));
+    	assert((ctx->arr) && (ctx->ndata) && (ctx->mavg));
 }
 
 
